@@ -26,6 +26,19 @@ document.querySelector('.search_input').addEventListener('keyup', e => {
                 image.src = 'docs.png';
                 image.alt = 'Google Docs icon';
                 break;
+            case 'sheets':
+                image.src = 'sheets.png';
+                image.alt = 'Google Sheets icon;
+                break;
+            case 'drive':
+                image.src = 'drive.png';
+                image.alt = 'Drive icon; 
+                break;
+            case 'Slides':
+                image.src = 'slides.png';
+                image.alt = 'Google Slides icon;
+                break;
+             
         }
     }
     if(e.key === 'Enter')
